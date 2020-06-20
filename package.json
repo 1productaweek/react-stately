@@ -1,6 +1,6 @@
 {
   "name": "@1productaweek/react-stately",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A local state manager for react",
   "main": "dist/index.js",
   "scripts": {
