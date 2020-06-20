@@ -103,3 +103,7 @@ const els = fields.map(({ key, field, remove }, i) => (
 ))
 ```
 
+
+## 1 Product a Week
+
+This repo is maintained as part of 1 Product a Week - where I build and launch one product every week. [Find out more](https://1productaweek.com).
