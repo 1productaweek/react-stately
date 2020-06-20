@@ -16,7 +16,7 @@ import { Stately } from '@1productaweek/react-stately'
 </Stately>
 ```
 
-You can also pass in a function as a child, to get acc
+You can also pass in a function as a child, to get access to the stately controller.
 
 ```jsx
 import { Stately } from '@1productaweek/react-stately'
