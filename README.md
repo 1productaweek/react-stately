@@ -1,6 +1,6 @@
 # React Stately
 
-This package allows you to easily manage state in forms - using hooks!
+This package allows you to easily manage state in forms or anything else - using hooks!
 
 ### Stately
 
