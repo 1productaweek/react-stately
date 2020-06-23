@@ -3,8 +3,15 @@ import map from 'lodash/map'
 import arrayMove from 'array-move'
 import useStately from './useStately'
 
+export interface StatelyArrayValueItem {
+  key: string
+  field: string
+  remove: () => void
+  initialValue: any
+}
+
 export interface StatelyArrayValue {
-  fields: any[]
+  fields: StatelyArrayValueItem[]
   add: () => void
   addWithInitialValue: (val: any) => void
   remove: (index: number) => void
