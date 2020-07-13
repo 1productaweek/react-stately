@@ -16,6 +16,7 @@
   ],
   "author": "Calum Moore",
   "license": "MIT",
+  "homepage": "https://github.com/1productaweek/react-stately",
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
