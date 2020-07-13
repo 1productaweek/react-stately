@@ -6,7 +6,7 @@ import useCombinedRefs from './util/useCombinedRefs'
 
 interface IStatelyFormProps {
   children: React.ReactNode
-  onSubmit: (e: React.FormEvent<HTMLFormElement>, stately: StatelyController) => void
+  onSubmit?: (e: React.FormEvent<HTMLFormElement>, stately: StatelyController) => void
   onChange?: (value: any, stately: StatelyController) => void
   initialValue?: any
   readOnly?: boolean
