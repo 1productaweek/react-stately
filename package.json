@@ -7,8 +7,8 @@
     "clean": "rimraf dist",
     "build": "yarn clean &&  NODE_ENV=production  babel src --ignore .spec.js,__mocks__ -d dist --copy-files --extensions '.ts,.tsx,.js' && rimraf -rf dist/**/__tests__ && yarn build:types",
     "build:types": "tsc -p tsconfig.types.json",
-    "prepare": "npm run clean && npm run build",
-    "prepublish": "yarn prepare",
+    "install:peers": "install-peers -f",
+    "prepare": "npm run clean && npm run build && yarn install:peers",
     "test": "jest"
   },
   "files": [
@@ -53,6 +53,7 @@
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-loader": "^4.0.2",
+    "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-node": "^11.1.0",
@@ -60,6 +61,7 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "eslint-plugin-standard": "^4.0.1",
+    "install-peers-cli": "^2.2.0",
     "jest": "^26.0.1",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
