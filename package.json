@@ -1,6 +1,6 @@
 {
   "name": "@1productaweek/react-stately",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A local state manager for react",
   "main": "dist/index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "build:types": "tsc -p tsconfig.types.json",
     "install:peers": "install-peers -f",
     "prepare": "npm run clean && npm run build && yarn install:peers",
+    "release": "yarn publish --access=public",
     "test": "jest"
   },
   "files": [
