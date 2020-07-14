@@ -104,6 +104,8 @@ const els = fields.map(({ key, field, remove }, i) => (
 ```
 
 
-## 1 Product a Week
+### Made by 1PAW
 
-This repo is maintained as part of 1 Product a Week - where I build and launch one product every week. [Find out more](https://1productaweek.com).
+https://1productaweek.com
+  * |- [Ralley](https://ralley.io) - queue as a service
+  * |- [Snapboard](https://snapboard.io) - hackable dashboard
