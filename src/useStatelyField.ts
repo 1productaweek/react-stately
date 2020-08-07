@@ -3,7 +3,7 @@ import { StatelyContext } from './Stately'
 import StatelyController from './StatelyController'
 
 export default function useStatelyField <T = any> (
-  field: string | null,
+  field: string | string[] | null,
   options?: { trackChildren?: boolean, initialValue?: any },
 ): [T, (value: T) => T, StatelyController] {
   const { trackChildren, initialValue } = options || {}
